@@ -30,23 +30,46 @@
       margin-right: auto;
     }
 
+  /* Naviagtion Bar */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #dd89f5;
+    }
+    li {
+      float: right;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover:not(.active){
+      background-color: #04AA6D;
+    }
+
   </style>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </nav>
-
 </head>
+
+<nav>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="contact.html">Contact Me</a></li>
+  </ul>
+</nav>
 
 <body>
   <div class="header">
     <h1> Rachel Sousa </h1>
     <p> PhD Student in Mathematical, Computational, and Systems Biology at the University of California, Irvine </p>
+
   </div>
 
   <div class="content">
